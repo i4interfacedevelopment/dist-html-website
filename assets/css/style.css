@@ -1473,7 +1473,7 @@ ul.wp-block-rss a {
   font-size: 14px;
   font-weight: 400;
   font-family: var(--body-font);
-  text-transform: capitalize;
+  text-transform: capitalicze;
 }
 
 .header-top .gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code,
@@ -3321,52 +3321,64 @@ textarea.is-invalid {
 
 @-webkit-keyframes greentopBubbles {
   0% {
-    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+ 40% 90%, 55% 90%, 70% 90%;
   }
   50% {
-    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+ 50% 50%, 65% 20%, 90% 30%;
   }
   100% {
-    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+ 50% 40%, 65% 10%, 90% 20%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
 
 @keyframes greentopBubbles {
   0% {
-    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+ 40% 90%, 55% 90%, 70% 90%;
   }
   50% {
-    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+ 50% 50%, 65% 20%, 90% 30%;
   }
   100% {
-    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+ 50% 40%, 65% 10%, 90% 20%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
 
 @-webkit-keyframes greenbottomBubbles {
   0% {
-    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+ 70% -10%, 70% 0%;
   }
   50% {
-    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+ 105% 0%;
   }
   100% {
-    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+ 110% 10%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
 
 @keyframes greenbottomBubbles {
   0% {
-    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+ 70% -10%, 70% 0%;
   }
   50% {
-    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+ 105% 0%;
   }
   100% {
-    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+ 110% 10%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
@@ -8771,7 +8783,7 @@ te .footer-widget .widget_title:before {
 .main-menu a {
   position: relative;
   display: block;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
   font-family: var(--body-font);
@@ -8781,7 +8793,7 @@ te .footer-widget .widget_title:before {
 
 @media (max-width: 1299px) {
   .main-menu a {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -8826,9 +8838,9 @@ te .footer-widget .widget_title:before {
   margin-right: 0 !important;
 }
 
-.main-menu ul li:first-child {
+/* .main-menu ul li:first-child {
   margin-left: 0 !important;
-}
+} */
 
 .main-menu ul li:hover > ul.sub-menu {
   visibility: visible;
@@ -9167,7 +9179,7 @@ te .footer-widget .widget_title:before {
 
 .header-links li {
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   font-family: var(--body-font);
   line-height: normal;
@@ -9310,8 +9322,8 @@ te .footer-widget .widget_title:before {
 }
 
 .header-top {
-  padding: 11px 0;
-  padding-bottom: 18px;
+  padding: 4px 0;
+  /* padding-bottom: 18px; */
   background-color: var(--black-color);
 }
 
@@ -9850,7 +9862,7 @@ te .footer-widget .widget_title:before {
 
 @media (max-width: 1399px) {
   .header-layout1 .main-menu > ul > li > a {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -10016,9 +10028,9 @@ te .footer-widget .widget_title:before {
 }
 
 @media (max-width: 1199px) {
-  .header-info-item:nth-child(1) {
+  /* .header-info-item:nth-child(1) {
     display: none;
-  }
+  } */
 }
 
 .header-info-item:nth-child(2) {
@@ -32185,3 +32197,37 @@ Mentorship Area Home 3
 /*------------------- RTL -------------------*/
 
 /*# sourceMappingURL=style.css.map */
+.hero-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Fallback image */
+.hero-fallback-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Background video */
+.hero-bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.hero-bg-video.is-loaded {
+  opacity: 1;
+}
+
+/* CONTENT ON TOP */
+.hero-inner .container {
+  position: relative;
+  z-index: 5;
+}
