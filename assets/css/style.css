@@ -2964,11 +2964,25 @@ textarea.is-invalid {
 }
 
 .th-mobile-menu {
-  overflow-y: scroll;
   max-height: calc(100vh - 200px);
   padding-bottom: 40px;
   margin-top: 33px;
   text-align: left;
+  overflow-y: auto;
+}
+
+.mob-menu-extra-items li {
+  list-style: none;
+  text-align: start;
+
+  a {
+    margin-left: 8px;
+    display: inline-block;
+  }
+  i {
+    width: 24px;
+    display: inline-block;
+  }
 }
 
 .th-mobile-menu ul {

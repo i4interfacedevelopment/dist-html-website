@@ -616,6 +616,7 @@
         $($sideMunuOpen).on('click', function (e) {
             e.preventDefault();
             $($sideMenu).addClass($toggleCls);
+            $('.th-menu-wrapper').removeClass('th-body-visible');
         });
         $($sideMenu).on('click', function (e) {
             e.stopPropagation();
@@ -633,28 +634,6 @@
         });
     };
     popupSideMenu('.sidemenu-wrapper', '.sideMenuToggler', '.sideMenuCls', 'show');
-    /*---------- 12. Popup Sidemenu ----------*/
-    function popupSideMenu($sideMenu2, $sideMunuOpen2, $sideMenuCls2, $toggleCls2) {
-        // Sidebar Popup
-        $($sideMunuOpen2).on('click', function (e) {
-            e.preventDefault();
-            $($sideMenu2).addClass($toggleCls2);
-        });
-        $($sideMenu2).on('click', function (e) {
-            e.stopPropagation();
-            $($sideMenu2).removeClass($toggleCls2)
-        });
-        var sideMenuChild = $sideMenu2 + ' > div';
-        $(sideMenuChild).on('click', function (e) {
-            e.stopPropagation();
-            $($sideMenu2).addClass($toggleCls2)
-        });
-        $($sideMenuCls2).on('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            $($sideMenu2).removeClass($toggleCls2);
-        });
-    };
     popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
 
     /*----------- 11. Magnific Popup ----------*/
@@ -685,6 +664,11 @@
     $(".popup-content").magnificPopup({
         type: "inline",
         midClick: true,
+        callbacks: {
+            open: function () {
+                $('.th-menu-wrapper').removeClass('th-body-visible');
+            }
+        }
     });
 
     /*---------- 12. Section Position ----------*/
