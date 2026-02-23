@@ -254,7 +254,7 @@
 	Header Area
 ==============================-->
     <header class="th-header header-layout1">
-      <div class="header-top">
+      <div class="header-top d-none d-lg-block">
         <div class="container th-container4">
           <div
             class="row justify-content-center justify-content-lg-between align-items-center gy-2"
@@ -339,19 +339,11 @@
       <div class="sticky-wrapper">
         <!-- Main Menu Area -->
         <div class="menu-area">
-          <div class="container th-container2">
+          <div class="container th-container2 p-sm-0">
             <div class="menu-wrapp">
               <div class="row align-items-center justify-content-between">
-                <div class="col-md-95">
+                <div class="col-lg-8">
                   <div class="header-left d-flex align-items-center">
-                    <div
-                      class="header-logo d-block d-sm-none"
-                      style="margin-right: 0"
-                    >
-                      <a href="home-university.html">
-                        <img src="assets/img/logohead.jpg" alt="DiST" />
-                      </a>
-                    </div>
                     <!-- <div class="header-button d-none d-sm-block">
                       <a href="contact.html" class="th-btn">
                         Get More Info
@@ -362,7 +354,7 @@
                         />
                       </a>
                     </div> -->
-                    <nav class="main-menu d-none d-xl-block">
+                    <nav class="main-menu d-none d-lg-block">
                       <ul>
                         <li><a href="index.html">Home</a></li>
                         <li class="menu-item-has-children">
@@ -434,9 +426,17 @@
                     </nav>
                   </div>
                 </div>
-                <div class="col-md-25">
-                  <div class="header-button">
-                    <form class="search-form d-none d-xl-block">
+                <div class="col-12 col-lg-4">
+                  <div class="header-button ">
+                    <div
+                      class="header-logo d-block d-sm-none flex-grow-1"
+                      style="margin-right: 0"
+                    >
+                      <a href="home-university.html">
+                        <img src="assets/img/logohead.jpg" alt="DiST" />
+                      </a>
+                    </div>
+                    <form class="search-form d-none d-sm-block flex-grow-1">
                       <input type="text" placeholder="Search..." />
                       <button type="submit">
                         <i class="fa-light fa-magnifying-glass"></i>
@@ -444,7 +444,7 @@
                     </form>
                     <button
                       type="button"
-                      class="header-search searchBoxToggler d-xl-none"
+                      class="header-search searchBoxToggler d-sm-none"
                     >
                       <i class="fa-regular fa-magnifying-glass"></i>
                     </button>
@@ -1286,7 +1286,7 @@ Hero Area
                     <li
                       class="wow fadeInUp col-lg-6 d-flex gap-2"
                       data-wow-delay=".2s"
-                      style="margin-bottom: 12px ;"
+                      style="margin-bottom: 12px"
                     >
                       <div
                         class="blog-date"
