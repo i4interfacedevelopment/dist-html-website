@@ -9630,7 +9630,7 @@ te .footer-widget .widget_title:before {
 
 .header-links li {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   font-family: var(--body-font);
   line-height: normal;
@@ -10267,8 +10267,8 @@ te .footer-widget .widget_title:before {
     overflow: hidden;
   }
   .header-layout1 .search-form input {
-      height: 56px;
-      margin-left: 12px;
+    height: 56px;
+    margin-left: 12px;
   }
 }
 
@@ -29011,6 +29011,29 @@ span.select2-selection.select2-selection--single:focus {
 
 .campus-img {
   margin-bottom: 35px;
+  position: relative;
+  
+  img {
+    filter: brightness(1);
+  }
+
+  a {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    opacity: 0;
+    color: white !important;
+  }
+
+  a:after {
+    background-color: white !important;
+  }
+}
+.campus-img:hover a {
+  opacity: 1;
+}
+.campus-img:hover img {
+  filter: brightness(0.4);
 }
 
 .campus-content .box-title {
