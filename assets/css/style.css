@@ -1,12 +1,5 @@
 @charset "UTF-8";
-/*
-Template Name: DiST 
-Template URL: https://themeholy.com/html/DiST/
-Description: Education WordPress HTML Template
-Author: themeholy
-Author URI: https://themeforest.net/user/themeholy
-Version: 1.0.0
-*/
+
 /*=================================
     CSS Index Here
 ==================================*/
@@ -29008,11 +29001,41 @@ span.select2-selection.select2-selection--single:focus {
   margin-top: 34px;
   padding: 11px 25px;
 }
-
+.header-top {
+  padding-block: 12px;
+  a {
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.25rem;
+  }
+}
+.header-top a:hover {
+  color: var(--theme-color);
+}
+.logo-container {
+  h2 {
+    font-size: clamp(16px, 2.5vw, 28px);
+    margin: 0;
+    line-height: 1.4;
+    /* white-space: nowrap; */
+  }
+  p {
+    font-size: clamp(12px, 1vw, 16px);
+    margin: 0;
+    line-height: 1.4;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    h2 {
+      line-height: 1;
+    }
+  }
+}
 .campus-img {
   margin-bottom: 35px;
   position: relative;
-  
+
   img {
     filter: brightness(1);
   }
