@@ -146,7 +146,7 @@
             $('.sticky-wrapper').removeClass('sticky')
             $('.category-menu').removeClass('close-category');
             // Change logo back to head when not sticky
-            $('.header-logo img').attr('src', 'assets/img/logohead.jpg');
+            $('.header-logo img').attr('src', 'assets/img/logo-smol.png');
         }
     })
 
